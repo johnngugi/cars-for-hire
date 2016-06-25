@@ -61,23 +61,9 @@ table {
           box-sizing: border-box;
 }
 .container {
+	margin-bottom: 22px;
   padding-left: 30px;
   padding-right: 30px;
-}
-
-/*
-  ========================================
-  Rows
-  ========================================
-*/
-
-.row {
-  background: #666666;
-  color: white;
-  margin: 10px;
-  padding: 66px 10px 44px 10px;
-	/*font-family: 'Roboto Condensed', sans-serif*/
-	/*font-weight: 600;*/
 }
 
 /*
@@ -102,7 +88,6 @@ h1, h3, p {
 h1 {
   font-size: 35px;
   margin-top: 10px;
-  color: white;
 }
 h3 {
   font-size: 30px;
@@ -127,22 +112,19 @@ li {
   display: inline-block;
   word-spacing: 10px;
 }
+
 /*
   ========================================
   Links
   ========================================
 */
-
 .top-nav {
+	margin-right: 15px;
 	text-align: right;
 }
 a {
-	color: #e60000;
-	font-size: 25px;
-  text-decoration: none;
-}
-a:hover {
-  color: #fff;
+ font-size: 25px;
+ text-decoration: none;
 }
 /*
   ========================================
@@ -157,20 +139,15 @@ header {
   color: white;
   height: 600px;
 }
-.lead {
-  font-size: 30px;
-  margin-top: 30px;
-  text-align: center;
-}
 
 /*
   ========================================
   About
   ========================================
 */
-.form {
+/*.form {
   color: #cc0000;
-}
+}*/
 .form-control {
   background-color: black;
   color: white;
