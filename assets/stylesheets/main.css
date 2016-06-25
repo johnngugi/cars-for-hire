@@ -65,12 +65,45 @@ table {
   padding-right: 30px;
 }
 
+/*
+  ========================================
+  Styles
+  ========================================
+*/
 
 /*
   ========================================
   Typography
   ========================================
 */
+h1 {
+  color: white;
+  position: absolute;
+  left: 15px;
+}
+h1, h3, p {
+  margin-bottom: 22px;
+}
+.lead {
+  font-size: 30px;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+.top-nav {
+  text-align: right;
+}
+/*
+  ========================================
+  Links
+  ========================================
+*/
+a {
+  text-decoration: none;
+}
 
 /*
   ========================================
@@ -79,8 +112,12 @@ table {
 */
 
 header {
-  background-image: url("../images/3.png");
-
+  background-color: #00004d;
+  background-image: url("../images/car1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 600px;
 }
 /*
   ========================================
