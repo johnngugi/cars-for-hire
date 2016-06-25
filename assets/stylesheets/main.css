@@ -67,25 +67,41 @@ table {
 
 /*
   ========================================
+  Rows
+  ========================================
+*/
+
+.row {
+  background: #666666;
+  color: white;
+  margin: 10px;
+  padding: 66px 10px 44px 10px;
+	/*font-family: 'Roboto Condensed', sans-serif*/
+	/*font-weight: 600;*/
+}
+
+/*
+  ========================================
   Styles
   ========================================
 */
+body {
+  background: black;
+}
 
 /*
   ========================================
   Typography
   ========================================
 */
-h1 {
-  color: white;
-  position: absolute;
-  left: 15px;
-}
+
 h1, h3, p {
   margin-bottom: 22px;
 }
-.lead {
-  font-size: 30px;
+h1 {
+  font-size: 35px;
+  margin-top: 15px;
+  color: white;
 }
 
 /*
@@ -112,13 +128,17 @@ a {
 */
 
 header {
-  background-color: #00004d;
   background-image: url("../images/car1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   height: 600px;
 }
+.lead {
+  font-size: 30px;
+  text-align: center;
+}
+
 /*
   ========================================
   About
